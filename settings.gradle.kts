@@ -1,5 +1,5 @@
-rootProject.name = "Basis"
-include("hw01-gradle")
+rootProject.name = "basis"
+include("listener")
 
 pluginManagement {
     val jgitver: String by settings
