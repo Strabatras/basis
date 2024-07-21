@@ -1,5 +1,4 @@
 rootProject.name = "basis"
-include("listener")
 
 pluginManagement {
     val jgitver: String by settings
@@ -22,3 +21,6 @@ pluginManagement {
         id("com.diffplug.spotless") version spotless
     }
 }
+
+include("listener")
+include("excel-parser")
